@@ -7,7 +7,7 @@ from gtts import gTTS
 from groq import Groq
 
 # Environment variable for Groq API key
-GROQ_API_KEY ="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"
+GROQ_API_KEY ="YOUR_API_KEY"
 
 # Initialize Groq client
 groq_client = Groq(api_key=GROQ_API_KEY)
