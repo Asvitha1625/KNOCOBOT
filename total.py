@@ -5,7 +5,7 @@ from urllib.parse import urlparse, parse_qs
 from deep_translator import GoogleTranslator
 
 # Your Google Cloud API key for the Gemini API
-GEMINI_API_KEY = "AIzaSyBxvXReYVV2Kvm4DBq_WkVf_84TV7E9nPA"
+GEMINI_API_KEY = "YOUR_API_KEY"
 gemini_api_endpoint = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + GEMINI_API_KEY
 
 def extract_links(soup):
